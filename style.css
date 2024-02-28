@@ -1,0 +1,215 @@
+body {
+    background-color: lightgrey;
+    margin: 20px;
+}
+.container1 {
+    display: flex;
+    justify-content: center; /* Centre horizontalement les éléments du conteneur */
+    align-items: center;
+    padding: 10px;
+}
+
+.container1 img {
+    max-height: 200px;
+    margin-right: 10px; /* Ajoutez un espace entre l'image et les liens */
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-right: 20px; /* Réduisez la marge entre les liens */
+    text-decoration: none;
+    color: #333;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.highlighted {
+    border-bottom:solid red;
+    font: weight 100px; ; 
+   
+}
+
+
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.section1 > div {
+    max-width: 600px;
+}
+
+span {
+    color: red;
+    
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+    #noir{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        max-width: 210px;
+    }
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2 h2 {
+    font-size: 1.5em;
+}
+
+.section2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    text-decoration: underline red;
+    
+}
+
+.section2 div > div {
+    text-align: center;
+    max-width: 300px;
+}
+
+.section2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section2 p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.section2 strong {
+    font-weight: bold;
+}
+
+.background-rouge {
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0; /* Ajustez la marge selon vos besoins */
+    text-align: center;
+    align-items: center;
+    
+}
+
+.background-rouge a {
+    background-color: black;
+    color: white;
+    text-decoration: none; /* Remove underline from the anchor */
+    max-width: 209px;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    width: 200px; /* Largeur de la barre horizontale */
+    transform: rotate(360deg); /* Rotation pour rendre le texte horizontal */
+    white-space: nowrap; /* Évite le retour à la ligne automatique */
+    
+}
+
+    
+
+
+.section4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section4 h2 {
+    text-decoration: underline red;
+}
+.section5 {
+    text-align: center;
+}
+
+.section5 h2 {
+    text-decoration: underline red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px ;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.img img {
+    width: 29%; /* Adjust the width as needed */
+    margin-bottom: 10px; /* Adjust the spacing between images */
+    text-align: center;
+    
+}
+
+.section6 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#souligne {
+    text-decoration: underline red;
+}
+
+/* Media Queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    .section1 > div {
+        max-width: 80%;
+    }
+
+    .section2 div > div {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section1 > div {
+        max-width: 100%;
+    }
+
+    .section2 div > div {
+        max-width: 100%;
+    }
+}
